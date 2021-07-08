@@ -4,11 +4,12 @@ body{
     margin: 0vh ;
 }
 header{
-    background-color: rgb(235, 235, 235);
+    background-color: black;
     padding-left: 25px;
-    /* padding-bottom: 15px; */
-    /* padding-top: 20px; */
-    height: 50vh;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    /* height: 50vh; */
+    color: white;
 }
 header p {
     display: inline;
@@ -29,7 +30,7 @@ h1{
 }
 
 #webdev{
-    border-right: black solid 2px;
+    border-right: rgb(255, 230, 0) solid 2px;
 }
 
 #about{
@@ -44,6 +45,8 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
     font-size: 30px;
+    border-bottom: rgb(255, 230, 0) solid;
+
 }
 
 .icons{
@@ -71,6 +74,8 @@ img{
 #video{
     width: 40%;
     height: 40%;
+    display: block;
+    margin: auto;
     
 }
 
@@ -81,4 +86,8 @@ img{
 
 figcaption{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.projecttitle{
+    font-size: 20px;
 }
