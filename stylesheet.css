@@ -6,9 +6,11 @@ body{
 header{
     background-color: black;
     padding-left: 25px;
-    padding-bottom: 100px;
-    padding-top: 20px;
+    /* padding-bottom: 100px; */
+    /* padding-top: 20px; */
     /* height: 50vh; */
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: white;
 }
 header p {
@@ -81,7 +83,7 @@ img{
 
 #contact{
     padding: 25px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 figcaption{
@@ -90,4 +92,49 @@ figcaption{
 
 .projecttitle{
     font-size: 20px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
+	float: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 70px;
+    font-size: 20px;
+}
+
+nav a:link, nav a:visited {
+	color: white;
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+a:link, a:visited{
+    text-decoration: none; 
+}
+
+nav{
+    padding-top: 50px;
+   margin-bottom: 0px;
+}
+.backToTop{
+    /* display: inline; */
+    float: right;
+    color:black;
+}
+
+#contactDiv{
+    text-align: center;
+}
+.contactLinks{
+    padding: 0 20px;
+    text-align: center;
+    display: inline-block;
+    color: black;
 }

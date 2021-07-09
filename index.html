@@ -10,15 +10,22 @@
 </head>
 
 <body>
-    <header>
+    <header id="top">
         <h1>Karina Melgoza</h1>
         <p id="webdev">Web Developer</p>
         <p>Phoenix, AZ</p>
-        <!-- <nav>About</nav> -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section id="about">
-        <h3 class="h3class">About</h3>
+        <h3 class="h3class">About <a href="#top" class="backToTop">^</a></h3>
         <p>Hello! I am Karina and I am studying web development at Devmountain. I graduated from Arizona State
             University
             (ASU) in 2018 with a degree in Medical Studies. I consider myself a lifelong student. Which is why a few
@@ -40,7 +47,7 @@
     </section>
 
     <section id="skills">
-        <h3 class="h3class">Skills</h3>
+        <h3 class="h3class">Skills<a href="#top" class="backToTop">^</a></h3>
         <figure class="icons">
             <img src="images/html5.png" alt="html-5">
             <figcaption>HTML5</figcaption>
@@ -69,7 +76,7 @@
     </section>
     <br>
     <section id="projects">
-        <h3 class="h3class">Projects</h3>
+        <h3 class="h3class">Projects<a href="#top" class="backToTop">^</a></h3>
         <div>
             <p class="projecttitle">Book List</p>
             <p>This project allows users to add books to a list. A user can delete an item from the list. In case the
@@ -88,13 +95,21 @@
     </section>
 
     <section id="contact">
-        <h3 class="h3class">Contact</h3>
-        <a href="https://github.com/karinamelgoza" target="_blank">
-            <img src="images/github.png" alt="github">
-        </a>
-        <a href="https://www.linkedin.com/in/karina-melgoza-3a2895216/" target="_blank">
-            <img src="images/linkedin.png" alt="linkedin">
-        </a>
+        <h3 class="h3class">Contact<a href="#top" class="backToTop">^</a></h3>
+        <div id="contactDiv">
+            <a href="https://github.com/karinamelgoza" target="_blank" class="contactLinks">
+                <figure>
+                    <img src="images/github.png" alt="github" title="GitHub">
+                    <figcaption>GitHub</figcaption>
+                </figure>
+            </a>
+            <a href="https://www.linkedin.com/in/karina-melgoza-3a2895216/" target="_blank" class="contactLinks">
+                <figure>
+                    <img src="images/linkedin.png" alt="linkedin">
+                    <figcaption>LinkedIn</figcaption>
+                </figure>
+            </a>
+        </div>
     </section>
 
 </body>
