@@ -5,3 +5,9 @@
 .carousel-caption{
     height: 100vh;
 }
+
+body {
+    background-image: url(/images/jeremy-bishop-8xznAGy4HcY-unsplash.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
