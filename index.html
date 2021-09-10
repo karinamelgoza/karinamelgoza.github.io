@@ -12,6 +12,15 @@
 </head>
 
 <body>
+    <!-- <nav style="z-index: 2000">
+        <ul class="d-flex flex-wrap nav">
+            <li><a href="#home" class="nav-link text-white">Home</a></li>
+            <li><a href="#about" class="nav-link text-white">About</a></li>
+            <li><a href="#skills" class="nav-link text-white">Skills</a></li>
+            <li><a href="#projects" class="nav-link text-white">Projects</a></li>
+            <li><a href="#contact" class="nav-link text-white">Contact</a></li>
+        </ul>
+    </nav> -->
     <main>
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval='false'>
             <div class="carousel-indicators">
@@ -19,21 +28,23 @@
                     aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" id="home">
                     <div class="container">
                         <div class="carousel-caption text-start top-50">
                             <h1>Karina Melgoza</h1>
                             <h4>Web Developer / Software Engineer</h4>
-                            <!-- <p>Some representative placeholder content for the first slide of the carousel.</p> -->
+                            <p>Phoenix, AZ</p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-caption overflow-auto">
                         <h1 class="py-5">About</h1>
-                        <p class="py-3 px-3">Hello! I am Karina and I am a full-stack web developer. I graduated
+                        <p class="py-4 px-3">Hello! I am Karina and I am a full-stack web developer. I graduated
                             from
                             Arizona State
                             University
@@ -72,31 +83,87 @@
                     <div class="container">
                         <div class="carousel-caption">
                             <h1 class="py-5">Skills</h1>
-                            <div class="d-flex flex-row flex-wrap">
+                            <div class="d-flex flex-row flex-wrap py-2">
                                 <figure class="mx-3">
-                                    <img src="https://img.icons8.com/color/96/000000/html-5--v1.png" />
+                                    <img src="https://img.icons8.com/color/96/000000/html-5--v1.png" alt="html5" />
                                     <figcaption>HTML5</figcaption>
                                 </figure>
                                 <figure class="mx-3">
-                                    <img src="https://img.icons8.com/color/96/000000/css3.png" />
+                                    <img src="https://img.icons8.com/color/96/000000/css3.png" alt="css3" />
                                     <figcaption>CSS3</figcaption>
                                 </figure>
                                 <figure class="mx-3">
-                                    <img src="https://img.icons8.com/color/96/000000/javascript--v1.png" />
+                                    <img src="https://img.icons8.com/color/96/000000/javascript--v1.png"
+                                        alt="javascript" />
                                     <figcaption>JavaScript</figcaption>
                                 </figure>
                                 <figure class="mx-3">
-                                    <img src="https://img.icons8.com/color/96/000000/nodejs.png" />
-                                    <figcaption>Nodejs</figcaption>
+                                    <img src="https://img.icons8.com/color/96/000000/nodejs.png" alt="node.js" />
+                                    <figcaption>Node.js</figcaption>
                                 </figure>
                                 <figure class="mx-3">
-                                    <img src="https://img.icons8.com/color/96/000000/postgreesql.png" />
+                                    <img src="https://img.icons8.com/color/96/000000/postgreesql.png" alt="postresql" />
                                     <figcaption>PostgreSQL</figcaption>
                                 </figure>
                                 <figure class="mx-3">
-                                    <img src="https://img.icons8.com/color/96/000000/git.png" />
+                                    <img src="https://img.icons8.com/color/96/000000/git.png" alt='git' />
                                     <figcaption>Git</figcaption>
                                 </figure>
+                                <figure class="mx-3">
+                                    <img src="https://img.icons8.com/color/96/000000/python--v1.png" alt="python" />
+                                    <figcaption>Python</figcaption>
+                                </figure>
+                                <figure class="mx-3">
+                                    <img src="images/icons8-flask-100.png" alt="flask" width="96px" height="96px" />
+                                    <figcaption>Flask</figcaption>
+                                </figure>
+                                <figure class="mx-3">
+                                    <img src="images/icons8-github-96.png" alt="github" />
+                                    <figcaption>GitHub</figcaption>
+                                </figure>
+                                <figure class="mx-3">
+                                    <img src="images/icons8-postman-api-128.png" alt="postman" width="96px"
+                                        height="96px" />
+                                    <figcaption>Postman</figcaption>
+                                </figure>
+                                <figure class="mx-3">
+                                    <img src="https://img.icons8.com/color/96/000000/bootstrap.png" alt="bootstrap" />
+                                    <figcaption>Bootstrap</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="py-5">Projects</h1>
+                            <h4>What's New Indie</h4>
+                            <h5><a href="https://github.com/karinamelgoza/whats-new-indie" class="text-white">GitHub
+                                    Repo</a></h5>
+                            <p>Python | Flask | SQLAlchemy | PostgreSQL | Jinja | HTML5 | CSS | Bootstrap | API</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="py-5">Contact</h1>
+                            <div class="d-flex flex-row flex-wrap py-2 justify-content-center">
+                                <a href="https://www.linkedin.com/in/karina-melgoza-3a2895216/" target="_blank"
+                                    class="text-decoration-none text-white">
+                                    <figure class="mx-3">
+                                        <img src="https://img.icons8.com/color/96/000000/linkedin.png" alt="linkedin" />
+                                        <figcaption>LinkedIn</figcaption>
+                                    </figure>
+                                </a>
+                                <a href="https://github.com/karinamelgoza" target="_blank"
+                                    class="text-decoration-none text-white">
+                                    <figure class="mx-3">
+                                        <img src="images/icons8-github-96.png" alt="github" />
+                                        <figcaption>GitHub</figcaption>
+                                    </figure>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -112,19 +179,7 @@
             </button>
         </div>
     </main>
-    <!-- <header id="top">
-        <h1>Karina Melgoza</h1>
-        <p id="webdev">Web Developer</p>
-        <p>Phoenix, AZ</p>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- 
     <section id="projects">
         <h3 class="h3class">Projects<a href="#top" class="backToTop">^</a></h3>
         <div>
@@ -143,24 +198,7 @@
             </video>
         </div>
     </section>
-
-    <section id="contact">
-        <h3 class="h3class">Contact<a href="#top" class="backToTop">^</a></h3>
-        <div id="contactDiv">
-            <a href="https://github.com/karinamelgoza" target="_blank" class="contactLinks">
-                <figure>
-                    <img src="images/github.png" alt="github" title="GitHub">
-                    <figcaption>GitHub</figcaption>
-                </figure>
-            </a>
-            <a href="https://www.linkedin.com/in/karina-melgoza-3a2895216/" target="_blank" class="contactLinks">
-                <figure>
-                    <img src="images/linkedin.png" alt="linkedin">
-                    <figcaption>LinkedIn</figcaption>
-                </figure>
-            </a>
-        </div>
-    </section> -->
+ -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
